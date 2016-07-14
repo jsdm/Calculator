@@ -1,0 +1,1 @@
+var butVal=0,textVal=0,num="",results=0,sumNum=[],facto=[],digits=/[0-9]/g;$(document).ready(function(){$("button").click(function(){textVal=$("input").val(),butVal=$(this).attr("value"),"="==butVal?num=eval(num):"C"==butVal?num="":(num+=butVal,console.log(butVal)),$("input").val(num)})});
